@@ -1,0 +1,13 @@
+{
+  "name": "ai-codereviewer",
+  "version": "1.0.0",
+  "description": "A simple React app that lets users write JavaScript code, get an AI-generated code review, and view the review in a markdown format. The code editor highlights syntax using **Prism.js**, and reviews are rendered using **React Markdown** with **highlighting** via **rehype-highlight**.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix ai-backend && npm install --prefix ai-frontend && npm run build --prefix ai-frontend",
+    "start": "npm run start --prefix ai-backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
